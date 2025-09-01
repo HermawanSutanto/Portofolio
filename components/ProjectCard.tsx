@@ -5,7 +5,6 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 interface ProjectCardProps {
   project: Project;
 }
-
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   const { title, description, tags, imageUrls, liveUrl, sourceUrl } = project;
 
