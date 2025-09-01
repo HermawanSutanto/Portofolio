@@ -27,9 +27,7 @@ export const PROJECTS: Project[] = [
     description:
       "Platform berbasis web untuk visualisasi dan analisis data secara real-time. Dibangun dengan tumpukan MERN dan D3.js.",
     tags: ["React", "Node.js", "Supabase", "AI Studio API"],
-    imageUrls: [
-      "https://github.com/HermawanSutanto/Portofolio/blob/main/Public/pp.png"
-    ],
+    imageUrls: ["/image.png"],
     liveUrl: "https://mind-mhirc.my.id/",
     sourceUrl: "#"
   },
@@ -38,9 +36,7 @@ export const PROJECTS: Project[] = [
     description:
       "Situs e-commerce berfitur lengkap dengan otentikasi pengguna, keranjang belanja, dan gateway pembayaran Stripe.",
     tags: ["Laravel", "MySql", "Tailwind CSS"],
-    imageUrls: [
-      "https://github.com/HermawanSutanto/Portofolio/blob/main/Public/image2.png"
-    ],
+    imageUrls: ["/image2.png"],
     liveUrl: "https://sicepat.biz.id/",
     sourceUrl: "#"
   },
@@ -50,9 +46,9 @@ export const PROJECTS: Project[] = [
       "Platform berbasis web untuk visualisasi dan analisis data secara real-time. Dibangun dengan tumpukan MERN dan D3.js.",
     tags: ["React", "TypeScript", "Tailwind CSS"],
     imageUrls: [
-      "https://github.com/HermawanSutanto/Portofolio/blob/main/Public/uibarbershop.jpg",
-      "https://github.com/HermawanSutanto/Portofolio/blob/main/Public/uibarbershop2.jpg",
-      "https://github.com/HermawanSutanto/Portofolio/blob/main/Public/uibarbershop3.jpg"
+      "/uibarbershop.jpg",
+      "/uibarbershop2.jpg",
+      "/uibarbershop3.jpg"
     ],
     liveUrl: "#",
     sourceUrl: "#"
