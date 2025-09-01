@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
             Halo, saya <span className="text-accent">Hermawan Sutanto</span>
           </h1>
           <h2 className="text-2xl md:text-4xl font-semibold text-medium mb-8">
-            Saya seorang Insinyur Frontend Kreatif
+            Fullstack Developer
           </h2>
           <p className="text-lg md:text-xl text-light max-w-2xl mx-auto mb-10">
             Saya bersemangat dalam membangun antarmuka pengguna yang indah dan

@@ -9,6 +9,8 @@ import {
   FaLaravel,
   FaGitAlt
 } from "react-icons/fa";
+import { SiFirebase } from "react-icons/si";
+
 import {
   SiTypescript,
   SiTailwindcss,
@@ -69,13 +71,14 @@ export const SKILLS: Skill[] = [
   { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
   { name: "Supabase", icon: SiSupabase, color: "#3ECF8E" },
   { name: "SQL", icon: SiPostgresql, color: "#4169E1" }, // Menggunakan ikon Postgres sebagai representasi
-  { name: "Git/GitHub", icon: FaGitAlt, color: "#F05032" }
+  { name: "Git/GitHub", icon: FaGitAlt, color: "#F05032" },
+  { name: "Firebase", icon: SiFirebase, color: "#f0a432ff" }
 ];
 
 export const SOCIAL_LINKS = {
   github: "https://github.com/HermawanSutanto",
   linkedin: "https://linkedin.com/in/hermawan-sutanto-9a89b0220",
-  twitter: "https://twitter.com"
+  instagram: "https://www.instagram.com/hermawanstnto/"
 };
 
 export const NAV_LINKS = [

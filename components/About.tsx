@@ -7,14 +7,14 @@ const About: React.FC = () => {
       <div className="flex flex-col md:flex-row items-center gap-12 md:gap-16">
         <div className="w-full md:w-1/3">
           <img
-            src="https://picsum.photos/seed/profile/400/400"
+            src="public/pp.jpg"
             alt="Hermawan Sutanto"
             className="rounded-full shadow-2xl mx-auto border-4 border-accent"
           />
         </div>
         <div className="w-full md:w-2/3 text-center md:text-left">
           <p className="text-lg text-medium leading-relaxed">
-            Dengan pengalaman lebih dari 5 tahun dalam pengembangan frontend,
+            Dengan pengalaman lebih dari 5 tahun dalam pengembangan Fullstack,
             saya memiliki keahlian dalam mengubah ide-ide kompleks menjadi
             aplikasi web yang elegan, responsif, dan berperforma tinggi.
             Perjalanan saya di dunia teknologi didorong oleh rasa ingin tahu
