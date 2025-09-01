@@ -45,11 +45,7 @@ export const PROJECTS: Project[] = [
     description:
       "Platform berbasis web untuk visualisasi dan analisis data secara real-time. Dibangun dengan tumpukan MERN dan D3.js.",
     tags: ["React", "TypeScript", "Tailwind CSS"],
-    imageUrls: [
-      "/uibarbershop.jpg",
-      "/uibarbershop2.jpg",
-      "/uibarbershop3.jpg"
-    ],
+    imageUrls: ["/barber.png", "/barber2.png", "/barber3.png"],
     liveUrl: "#",
     sourceUrl: "#"
   },
