@@ -27,7 +27,7 @@ export const PROJECTS: Project[] = [
     description:
       "Platform berbasis web untuk visualisasi dan analisis data secara real-time. Dibangun dengan tumpukan MERN dan D3.js.",
     tags: ["React", "Node.js", "Supabase", "AI Studio API"],
-    imageUrls: ["public/image.png"],
+    imageUrls: ["../public/image.png"],
     liveUrl: "https://mind-mhirc.my.id/",
     sourceUrl: "#"
   },
@@ -36,7 +36,7 @@ export const PROJECTS: Project[] = [
     description:
       "Situs e-commerce berfitur lengkap dengan otentikasi pengguna, keranjang belanja, dan gateway pembayaran Stripe.",
     tags: ["Laravel", "MySql", "Tailwind CSS"],
-    imageUrls: ["public/image2.png"],
+    imageUrls: ["../public/image2.png"],
     liveUrl: "https://sicepat.biz.id/",
     sourceUrl: "#"
   },
@@ -46,9 +46,9 @@ export const PROJECTS: Project[] = [
       "Platform berbasis web untuk visualisasi dan analisis data secara real-time. Dibangun dengan tumpukan MERN dan D3.js.",
     tags: ["React", "TypeScript", "Tailwind CSS"],
     imageUrls: [
-      "public/uibarberapp.jpg",
-      "public/uibarberapp2.jpg",
-      "public/uibarberapp3.jpg"
+      "../public/uibarberapp.jpg",
+      "../public/uibarberapp2.jpg",
+      "../public/uibarberapp3.jpg"
     ],
     liveUrl: "#",
     sourceUrl: "#"

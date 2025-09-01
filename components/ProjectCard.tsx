@@ -22,7 +22,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             {imageUrls.map((url, index) => (
               <img
                 key={index}
-                src={url}
+                src={"../" + url}
                 alt={`${title} screenshot ${index + 1}`}
                 className="flex-1 h-full w-auto object-cover object-top transition-transform duration-300 group-hover:scale-105"
               />
