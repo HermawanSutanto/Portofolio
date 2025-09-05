@@ -25,7 +25,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Platform Tes Mental Integrasi Ai",
     description:
-      "Platform berbasis web untuk visualisasi dan analisis data secara real-time. Dibangun dengan tumpukan MERN dan D3.js.",
+      "Proyek kolaborasi yang dimana merupakan Platform tes mental, terdapat fitur tes, rekap, dashboard, realtime chat, dan integrasi ai yang ditujukan untuk mengatasi masalah mental seseorang.",
     tags: ["React", "Node.js", "Supabase", "AI Studio API"],
     imageUrls: ["/image.png"],
     liveUrl: "https://mind-mhirc.my.id/",
@@ -34,28 +34,29 @@ export const PROJECTS: Project[] = [
   {
     title: "Platform Wedding Invitation",
     description:
-      "Situs e-commerce berfitur lengkap dengan otentikasi pengguna, keranjang belanja, dan gateway pembayaran Stripe.",
+      "Situs Undangan Pernikahan yang dimana pengguna dapat membuat undangannya sendiri berdasarkan template dan paket yang ada. pengguna dapat membagikan undangannya melalui url yang dicustom",
     tags: ["Laravel", "MySql", "Tailwind CSS"],
     imageUrls: ["/image2.png"],
     liveUrl: "https://sicepat.biz.id/",
     sourceUrl: "#"
   },
   {
-    title: "Nama Proyek Anda",
+    title: "Aplikasi POS Barbershop",
     description:
-      "Platform berbasis web untuk visualisasi dan analisis data secara real-time. Dibangun dengan tumpukan MERN dan D3.js.",
-    tags: ["React", "TypeScript", "Tailwind CSS"],
+      "Platform berbasis aplikasi untuk pencatatan transaksi, karyawan, stok barang, dan alokasi dana. aplikasi dibuat dengan menggunakan Kotlin dan xml untuk tampilannya ditujukan untuk perangkat lama yang memiliki ram kecil, dan database yang digunakan ialah firestore Firebase.",
+    tags: ["Kotlin", "Firebase"],
     imageUrls: ["/barber.png", "/barber2.png", "/barber3.png"],
     liveUrl: "#",
     sourceUrl: "#"
   },
   {
-    title: "Aplikasi Chat Real-time",
+    title: "Simdis Kantah Jember",
     description:
-      "Aplikasi obrolan yang menampilkan komunikasi dua arah instan menggunakan WebSockets dan Redis untuk skalabilitas.",
-    tags: ["React", "WebSockets", "Node.js", "Redis"],
-    imageUrls: ["https://picsum.photos/seed/project4/600/400"],
-    liveUrl: "#",
+      "Sistem Informasi Persuratan disposisi Kantor Tanah Jember. merupakan sistem untuk memantau arus dan prioritas surat di setiap seksi yang diawasi oleh kepala kantor tanah.",
+    tags: ["React", "Laravel", "MySql"],
+    imageUrls: ["/image3.png"],
+    liveUrl:
+      "https://fe-pertanahan-1b5bw91rh-hermawansutantos-projects.vercel.app/",
     sourceUrl: "#"
   }
 ];
