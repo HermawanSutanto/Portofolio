@@ -14,15 +14,15 @@ const About: React.FC = () => {
         </div>
         <div className="w-full md:w-2/3 text-center md:text-left">
           <p className="text-lg text-medium leading-relaxed">
-            Dengan pengalaman lebih dari 5 tahun dalam pengembangan Fullstack,
+            Dengan pengalaman lebih dari 2 tahun dalam pengembangan Fullstack,
             saya memiliki keahlian dalam mengubah ide-ide kompleks menjadi
-            aplikasi web yang elegan, responsif, dan berperforma tinggi.
-            Perjalanan saya di dunia teknologi didorong oleh rasa ingin tahu
-            yang tak pernah padam dan komitmen untuk terus belajar dan
-            beradaptasi dengan teknologi terbaru.
+            aplikasi web yang responsif, dan berperforma tinggi. Perjalanan saya
+            di dunia teknologi didorong oleh rasa ingin tahu yang tak pernah
+            padam dan komitmen untuk terus belajar dan beradaptasi dengan
+            teknologi terbaru.
           </p>
           <p className="text-lg text-medium leading-relaxed mt-4">
-            Saya berspesialisasi dalam React, TypeScript, dan ekosistem modern
+            Saya berspesialisasi dalam Laravel, Kotlin, dan ekosistem modern
             JavaScript. Saya percaya pada kekuatan kolaborasi dan menikmati
             bekerja dalam tim yang gesit untuk memberikan produk luar biasa yang
             memenuhi kebutuhan pengguna dan tujuan bisnis. Saat tidak sedang
