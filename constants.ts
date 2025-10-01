@@ -9,7 +9,7 @@ import {
   FaLaravel,
   FaGitAlt
 } from "react-icons/fa";
-import { SiFirebase } from "react-icons/si";
+import { SiFirebase, SiFlutter } from "react-icons/si";
 
 import {
   SiTypescript,
@@ -58,18 +58,28 @@ export const PROJECTS: Project[] = [
     liveUrl:
       "https://fe-pertanahan-1b5bw91rh-hermawansutantos-projects.vercel.app/",
     sourceUrl: "#"
+  },
+  {
+    title: "Inventory Tracker",
+    description:
+      "Aplikasi tracking inventory, yang digunakan untuk mempermudah pemilik umkm dalam memonitoring stok produk mereka dikala barang dijual secara offline maupun online.",
+    tags: ["Flutter", "Firebase"],
+    imageUrls: ["/InventoryTracker.png"],
+    liveUrl: "#",
+    sourceUrl: "#"
   }
 ];
 
 export const SKILLS: Skill[] = [
-  { name: "React.js", icon: FaReact, color: "#61DAFB" },
+  { name: "React", icon: FaReact, color: "#61DAFB" },
   { name: "Laravel", icon: FaLaravel, color: "#FF2D20" },
   { name: "Kotlin", icon: SiKotlin, color: "#7F52FF" },
   { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
   { name: "Supabase", icon: SiSupabase, color: "#3ECF8E" },
   { name: "SQL", icon: SiPostgresql, color: "#4169E1" }, // Menggunakan ikon Postgres sebagai representasi
   { name: "Git/GitHub", icon: FaGitAlt, color: "#F05032" },
-  { name: "Firebase", icon: SiFirebase, color: "#f0a432ff" }
+  { name: "Firebase", icon: SiFirebase, color: "#f0a432ff" },
+  { name: "Flutter", icon: SiFlutter, color: "#32a4f0ff" }
 ];
 
 export const SOCIAL_LINKS = {
