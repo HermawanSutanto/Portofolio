@@ -91,6 +91,7 @@ export const SOCIAL_LINKS = {
 export const NAV_LINKS = [
   { name: "Tentang", href: "#about" },
   { name: "Proyek", href: "#projects" },
+  { name: "Presentasi", href: "#presentation" }, // <-- Tambahkan ini
   { name: "Keahlian", href: "#skills" },
   { name: "Kontak", href: "#contact" }
 ];
