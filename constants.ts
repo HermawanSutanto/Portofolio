@@ -46,8 +46,9 @@ export const PROJECTS: Project[] = [
       "Platform berbasis aplikasi untuk pencatatan transaksi, karyawan, stok barang, dan alokasi dana. aplikasi dibuat dengan menggunakan Kotlin dan xml untuk tampilannya ditujukan untuk perangkat lama yang memiliki ram kecil, dan database yang digunakan ialah firestore Firebase.",
     tags: ["Kotlin", "Firebase"],
     imageUrls: ["/barber.png", "/barber2.png", "/barber3.png"],
-    liveUrl: "#",
-    sourceUrl: "#"
+    liveUrl:
+      "https://github.com/HermawanSutanto/ManajemenBarberKotlin/releases/tag/v1.0.0",
+    sourceUrl: "https://github.com/HermawanSutanto/ManajemenBarberKotlin"
   },
   {
     title: "Simdis Kantah Jember",
@@ -66,7 +67,7 @@ export const PROJECTS: Project[] = [
     tags: ["Flutter", "Firebase"],
     imageUrls: ["/InventoryTracker.png"],
     liveUrl: "#",
-    sourceUrl: "#"
+    sourceUrl: "https://github.com/HermawanSutanto/inventory_tracker"
   }
 ];
 
